@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+				<title>форма</title>
+	</head>
+	<body>
+		<h2>Завдання 1</h2>
+        <form>
+            <pre>
+                Введіть ваш нікнейм: <input name="nickname" type="text" maxlength="20" size="30px" value="">
+               
+                Ваша стать: <input name="sex" type="radio" value="w"> жіноча
+                            <input name="sex" type="radio" value="m"> чоловіча
+
+                На якому курсі ви навчаєтесь? <select name="course" size="1">
+                                              <option value="1">перший</option>
+                                              <option value="2">другий</option>
+                                              <option value="3">третій</option>
+                                              <option value="4">четвертий</option>
+                                              <option value="5">п'ятий</option>
+                                              </select>
+
+                Для вас пріорітетно: <input name="inter" type="checkbox" value="car">кар'єра
+                                     <input name="inter" type="checkbox" value="fam">сім'я
+                                     <input name="inter" type="checkbox" value="self">бравл старс
+                                     <input name="inter" type="text" value="" placeholder="інше">
+                
+                Напишіть кілька слів про себе:<textarea name="about" rows="2" cols="45" wrap="off"></textarea>
+
+                <label>Чи погоджуєтесь ви <a href="https://www.kmu.gov.ua/npas/32791826" target="_blank">на обробку інформації?</a></label><input required name="info" value="yes" type="radio">так
+                                                         <input required name="info" value="no" type="radio">ні
+                <input type="submit">  <input type="reset" value="Очистити форму">
+            </pre>
+        </form>
+    </body>
+</html>
